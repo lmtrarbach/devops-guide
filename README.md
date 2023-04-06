@@ -1,6 +1,7 @@
 # DevOps guide
-```mermaid
-graph TD;
+
+mermaid
+graph TD
 A[DevOps] --> B[Linux]
 A --> C[Tooling]
 A --> D[Networking]
@@ -25,4 +26,4 @@ E --> V[Kubernetes operators and controllers]
 F --> W[Different types of file systems (e.g., ext4, XFS, NTFS)]
 F --> X[File permissions and ownership]
 F --> Y[Filesystem security]
-```
+
