@@ -1,5 +1,5 @@
 ```mermaid
-graph TD
+graph TD;
 A[DevOps] --> B[Linux]
 A --> C[Tooling]
 A --> D[Networking]
