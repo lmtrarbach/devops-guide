@@ -1,6 +1,6 @@
 # DevOps guide
-```
-mermaid
+
+```mermaid
 graph TD
 A[DevOps] --> B[Linux]
 A --> C[Tooling]
