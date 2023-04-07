@@ -3,6 +3,7 @@
 This mind map shows the key topics that a person interested in learning DevOps should focus on. The mind map is divided into several main areas, each with its own subtopics.
 
 ## Mind Map
+
 ```mermaid
 graph TD
 A[DevOps] --> B[Linux & Culture]
@@ -39,7 +40,8 @@ L --> LA[Ansible]
 L --> LB[Chef]
 L --> LC[Puppet]
 M --> MA[Terraform]
-M --> MB[CloudFormation]```
+M --> MB[CloudFormation]
+```
 
 
 ## Topics
