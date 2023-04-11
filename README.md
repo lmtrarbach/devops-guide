@@ -46,7 +46,7 @@ M --> MB[CloudFormation]
 
 ## Topics
 
-### Linux & Culture
+### Linux
 
 - Linux operating system
 
