@@ -8,9 +8,9 @@ This mind map shows the key topics that a person interested in learning DevOps s
 graph TD
 A[DevOps] --> B[Linux & Culture]
 A --> C[Tooling]
-A --> D[Networking]
-A --> E[Kubernetes]
-A --> F[Filesystems]
+B --> D[Networking]
+B --> E[Kubernetes]
+B --> F[Filesystems]
 C --> G[Source Control]
 C --> H[Build Tools]
 C --> I[Testing Tools]
