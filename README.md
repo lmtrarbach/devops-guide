@@ -1,4 +1,4 @@
-# DevOps Mind Map
+# DevOps Guide
 
 This mind map shows the key topics that a person interested in learning DevOps should focus on. The mind map is divided into several main areas, each with its own subtopics.
 
@@ -48,17 +48,20 @@ M --> MB[CloudFormation]
 
 ### Linux
 
-- Linux operating system
+- [Linux Operating System](https://github.com/lmtrarbach/devops-guide/wiki/Introduction-to-the-Linux-Operating-System)
+- [Basic Linux Commands](https://github.com/lmtrarbach/devops-guide/wiki/Basic-Linux-Commands)
+- [Advanced Linux Commands](https://github.com/lmtrarbach/devops-guide/wiki/Advanced-Linux-Commands)
+- [Linux Networking Configuration](https://github.com/lmtrarbach/devops-guide/wiki/Basic-Network-Configuration)
+- [Linux Networking Commands](https://github.com/lmtrarbach/devops-guide/wiki/Linux-Networking-Commands)
+- [Linux Filesystem](https://github.com/lmtrarbach/devops-guide/wiki/Filesystem-Hierarchy-Standard)
+- [Linux Services and Kernel](https://github.com/lmtrarbach/devops-guide/wiki/Linux-Services)
+- [Linux bridges and interfaces](https://github.com/lmtrarbach/devops-guide/wiki/Linux-Bridges-and-Interfaces)
+- [The-Linux-Programming-Interface](https://github.com/lmtrarbach/devops-guide/wiki/The-Linux-Programming-Interface)
 
-- Lean culture and principles
 
 ### Tooling
 
 - Source control management (e.g., Git, SVN)
-
-- Build tools (e.g., Maven, Gradle)
-
-- Testing tools (e.g., JUnit, TestNG)
 
 - Containerization tools (e.g., Docker, Podman)
 
