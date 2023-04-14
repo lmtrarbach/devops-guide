@@ -6,7 +6,7 @@ This mind map shows the key topics that a person interested in learning DevOps s
 
 ```mermaid
 graph TD
-A[DevOps] --> B[Linux & Culture]
+A[DevOps] --> B[Linux]
 A --> C[Tooling]
 B --> D[Networking]
 B --> E[Kubernetes]
