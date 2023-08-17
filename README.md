@@ -41,6 +41,17 @@ L --> LB[Chef]
 L --> LC[Puppet]
 M --> MA[Terraform]
 M --> MB[CloudFormation]
+A[DevOps] --> H[Culture]
+H --> HL[3 Ways]
+H --> HM[CALMS]
+H --> HL[Team Topologies]
+H --> HM[SRE]
+H --> HN[Agile]
+HN --> HO[LEAN]
+HN --> HP[Scrum]
+
+
+
 ```
 
 
