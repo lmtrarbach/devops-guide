@@ -45,10 +45,18 @@ A[DevOps] --> H[Culture]
 H --> HL[3 Ways]
 H --> HM[CALMS]
 H --> HL[Team Topologies]
-H --> HM[SRE]
-H --> HN[Agile]
-HN --> HO[LEAN]
-HN --> HP[Scrum]
+H --> HN[SRE]
+H --> HM[Agile]
+HM --> HO[LEAN]
+HM --> HP[Scrum]
+A[DevOps] --> N[Software Engineering]
+N --> NA[APIs]
+N --> NB[Programming]
+N --> NC[Scripting]
+N --> ND[Databases]
+N --> NE[Solutions Design]
+N --> NF[UML]
+
 
 
 
