@@ -6,74 +6,114 @@ This mind map shows the key topics that a person interested in learning DevOps s
 
 ```mermaid
 graph TD
-A[DevOps] --> B[Linux]
-A --> C[Tooling]
-B --> D[Networking]
-B --> E[Kubernetes]
-B --> F[Filesystems]
-C --> G[Source Control]
-C --> H[Build Tools]
-C --> I[Testing Tools]
-C --> J[Containerization]
-C --> K[Orchestration]
-C --> L[Configuration Mgmt.]
-C --> M[Infrastructure as Code]
-D --> N[Network Protocols]
-D --> O[IP Addressing]
-D --> P[DNS]
-D --> Q[Load Balancing]
-D --> R[Network Security]
-E --> S[K8s Architecture]
-E --> T[K8s Deployment]
-E --> U[K8s Resources]
-E --> V[K8s Operators]
-F --> W[File System Types]
-F --> X[File Permissions]
-F --> Y[Filesystem Security]
-G --> GA[Git]
-G --> GB[SVN]
-J --> JA[Docker]
-J --> JB[Podman]
-K --> KA[Kubernetes]
-K --> KB[Docker Swarm]
-L --> LA[Ansible]
-L --> LB[Chef]
-L --> LC[Puppet]
-M --> MA[Terraform]
-M --> MB[CloudFormation]
-A[DevOps] --> H[Culture]
+
+A[DevOps]
+
+A --> H[Culture]
+
 H --> HL[3 Ways]
 H --> HM[CALMS]
 H --> HL[Team Topologies]
 H --> HN[SRE]
+
 H --> HM[Agile]
+
+
 HM --> HO[LEAN]
 HM --> HP[Scrum]
-A[DevOps] --> N[Software Engineering]
+
+
+A--> N[Software Engineering]
+
 N --> NA[APIs]
 N --> NB[Programming]
 N --> NC[Scripting]
 N --> ND[Databases]
 N --> NE[Solutions Design]
 N --> NF[UML]
-A[DevOps] --> O[Observability]
+
+
+A --> B[Linux]
+
+
+B --> D[Networking]
+
+D --> O[IP Addressing]
+D --> T[DNS]
+D --> Q[Load Balancing]
+D --> R[Network Security]
+D --> S[Network Protocols]
+
+B --> F[Filesystems]
+
+F --> W[File System Types]
+F --> X[File Permissions]
+F --> Y[Filesystem Security]
+
+C --> CA[Containers]
+
+CA --> J[Containerization]
+
+J --> JA[Docker]
+J --> JB[Podman]
+
+
+CA --> K[Container Orchestration]
+
+K --> KA[Kubernetes]
+
+KA --> S[K8s Architecture]
+KA --> T[K8s Deployment]
+KA --> U[K8s Resources]
+KA --> V[K8s Operators]
+
+K --> KB[Docker Swarm]
+
+A --> C[Tooling]
+
+C --> G[Source Control]
+
+G --> GA[Git]
+G --> GB[SVN]
+
+C --> L[Configuration Mgmt]
+
+L --> LA[Ansible]
+L --> LB[Chef]
+L --> LC[Puppet]
+
+C --> M[Infrastructure as Code]
+
+M --> MA[Terraform]
+M --> MB[CloudFormation]
+
+C --> I[Testing Tools]
+
+A --> O[Observability]
+
 O --> OA[Monitoring]
 O --> OB[Logs]
 O --> OC[Metrics]
 O --> OD[Tracing]
-A[DevOps] --> P[Cloud]
+
+A --> P[Cloud]
+
 P --> PA[Cloud Native]
 PA --> PAA[CNCF]
 PA --> PAB[12 Factors Apps]
 PA --> PAC[Cloud Native Applications]
+
 P --> PB[AWS]
+
 PB --> PBA[IAM]
 PB --> PBC[Networking]
 PB --> PBD[Lambdas]
 PB --> PBE[EC2]
 PB --> PBF[S3]
 PB --> PBG[EKS]
+
 P --> PC[GCP]
+
 PC --> PCA[IAM]
 PC --> PCB[VPC]
 PC --> PCC[GKE S2]
@@ -82,19 +122,21 @@ PC --> PCE[Cloud Run/ App Engine]
 PC --> PCF[Cloud Spanner]
 PC --> PCG[Cloud SQL]
 PC --> PCH[Pub/Sub S2]
+
 P --> PD[Azure]
+
 PD --> PDA[VNETs]
 PD --> PDB[Blobs storage]
 PD --> PDC[Azure DevOps]
+
 P --> PF[Openstack]
+
 PF --> PFA[Networks]
 PF --> PFB[KVM]
 PF --> PFC[Bridges]
 PF --> PFD[Virtual interfaces] 
 
 ```
-
-
 ## Topics
 
 ### Linux
@@ -109,6 +151,10 @@ PF --> PFD[Virtual interfaces]
 - [Linux bridges and interfaces](https://github.com/lmtrarbach/devops-guide/wiki/Linux-Bridges-and-Interfaces)
 - [The-Linux-Programming-Interface](https://github.com/lmtrarbach/devops-guide/wiki/The-Linux-Programming-Interface)
 
+### Culture
+- [The DevOps Culture](https://github.com/lmtrarbach/devops-guide/wiki/Culture)
+- [CALMS](https://github.com/lmtrarbach/devops-guide/wiki/CALMS)
+- [LEAN - Basics](https://github.com/lmtrarbach/devops-guide/wiki/LEAN)
 
 ### Tooling
 
